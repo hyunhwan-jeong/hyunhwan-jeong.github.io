@@ -38,15 +38,6 @@
     </item>
     
     <item>
-      <title>CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution</title>
-      <link>/publication/jeong_et_al_2017/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/jeong_et_al_2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CRISPRCloud2: A cloud-based platform for deconvoluting CRISPR screen data</title>
       <link>/publication/jeong_et_al_2018_1/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
@@ -70,6 +61,15 @@
       <pubDate>Tue, 06 Jun 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/nri_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution</title>
+      <link>/publication/jeong_et_al_2017/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jeong_et_al_2017/</guid>
       <description></description>
     </item>
     
