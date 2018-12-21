@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 2.4.0">
-  <meta name="generator" content="Hugo 0.49" />
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.52" />
   <meta name="author" content="Hyun-Hwan Jeong">
 
   
@@ -30,6 +30,12 @@
   
 
   
+
+  
+
+  
+
+  
   
   
   <meta name="theme-color" content="#3f51b5">
@@ -42,7 +48,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -67,7 +73,7 @@
 
   
   
-  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -88,16 +94,19 @@
 
   <link rel="canonical" href="/publication/jeong_et_al_2017/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Hyun-Hwan Jeong">
   <meta property="og:url" content="/publication/jeong_et_al_2017/">
   <meta property="og:title" content="CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution | Hyun-Hwan Jeong">
-  <meta property="og:description" content="We present a user-friendly, cloud-based, data analysis pipeline for the deconvolution of pooled screening data. This tool, CRISPRcloud, serves a dual purpose of extracting, clustering and analyzing raw next generation sequencing files derived from pooled screening experiments while at the same time presenting them in a user-friendly way on a secure web-based platform. Moreover, CRISPRcloud serves as a useful web-based analysis pipeline for reanalysis of pooled CRISPR screening datasets. Taken together, the framework described in this study is expected to accelerate development of web-based bioinformatics tool for handling all studies which include next generation sequencing data.">
-  
-  
-    
-  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content="We present a user-friendly, cloud-based, data analysis pipeline for the deconvolution of pooled screening data. This tool, CRISPRcloud, serves a dual purpose of extracting, clustering and analyzing raw next generation sequencing files derived from pooled screening experiments while at the same time presenting them in a user-friendly way on a secure web-based platform. Moreover, CRISPRcloud serves as a useful web-based analysis pipeline for reanalysis of pooled CRISPR screening datasets. Taken together, the framework described in this study is expected to accelerate development of web-based bioinformatics tool for handling all studies which include next generation sequencing data."><meta property="og:image" content="/img/hhj.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-05-24T00:00:00&#43;00:00">
@@ -113,6 +122,37 @@
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -236,6 +276,15 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
       </ul>
 
     </div>
@@ -250,15 +299,71 @@
 
 
 
-  <div class="article-container">
-    <h1 itemprop="name">CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution</h1>
-    <span class="pub-authors" itemprop="author">
-      
-      Hyun-Hwan Jeong, Seon Young Kim, Maxime WC Rousseaux, Huda Y Zoghbi, Zhandong Liu
-      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Hyun-Hwan Jeong</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Seon Young Kim</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Maxime WC Rousseaux</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Huda Y Zoghbi</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Zhandong Liu</span>
     </span>
-    <span class="float-right">
-      
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2017-05-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2017-05-24 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      May 24, 2017
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Hyun-Hwan Jeong">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
@@ -299,9 +404,73 @@
 </div>
 
 
-    </span>
+  
+
+</div>
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://academic.oup.com/bioinformatics/article-pdf/33/18/2963/25164213/btx335.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1093/bioinformatics/btx3358" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
 
     
     <h3>Abstract</h3>
@@ -338,54 +507,115 @@
     </div>
     <div class="d-sm-none space-below"></div>
 
-    <div class="row" style="padding-top: 10px">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-12 col-md-9">
-
-            
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://academic.oup.com/bioinformatics/article-pdf/33/18/2963/25164213/btx335.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1093/bioinformatics/btx3358" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
-
     <div class="space-below"></div>
 
     <div class="article-style"></div>
 
     
+
+    
+
+
+
+  
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/hhj.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Hyun-Hwan Jeong</a></h5>
+    <h6 class="card-subtitle">Postdoctoral Associate</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:hyun-hwan.jeong@bcm.edu" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/hyunhwanj" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=v1PxeYYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="//github.com/hyunhwaj" >
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/hyunhwaj/CV/raw/master/CV.pdf" target="_blank" rel="noopener">
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
 
 
   </div>
@@ -468,9 +698,6 @@
       
     
 
-    <script src="/js/hugo-academic.js"></script>
-    
-
     
     
 
@@ -489,7 +716,7 @@
       const search_index_filename = "/index.json";
       const i18n = {
         'placeholder': "Search...",
-        'results': "Search Results",
+        'results': "results found",
         'no_results': "No results found"
       };
       const content_type = {
@@ -523,10 +750,21 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
     
 
   </body>
