@@ -12,7 +12,7 @@ Aside
 ================================================================================
 
 
-![Lijia Yu](./profile.jpg){width=80%}
+![Hyun-Hwan Jeong](./profile.jpg){width=80%}
 
 
 Contact Info {#contact}
@@ -100,7 +100,6 @@ Houston, Texas
 
 - Mentor: Huda Zhogbi and Zhandong Liu
 
-
 ### Research assistant
 
 Health Avatar Project, National Core Research Center(NCRC)
@@ -110,7 +109,6 @@ Suwon, South Korea
 2014 - 2015
 
 - Developed an multi-omics data intergration software (MINA) integrative omics data analysis using clinical outcome-guided mutual information network.
-
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -174,6 +172,3 @@ for (i in 1:nrow(pubs)){
   cat('\n\n')
 }
 ```
-
-
-
