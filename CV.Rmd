@@ -1,0 +1,179 @@
+---
+title: "Hyun-Hwan Jeong's CV"
+author: Hyun-Hwan Jeong
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+---
+
+Aside
+================================================================================
+
+
+![Lijia Yu](./profile.jpg){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> hyun-hwan.jeong@bcm.edu
+- <i class="fa fa-github"></i> [github.com/hyunhwaj](https://github.com/hyunhwaj)
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in algorithm design and statistical learning models.
+
+- Full experience with next generation sequencing data analysis.
+
+- Highly skilled in R and Python.
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Hyun-Hwan Jeong {#title}
+--------------------------------------------------------------------------------
+
+### Postdoctoral Associate
+
+I am a postdoctoral associate in Department of Molecular and Human Genetics at the Baylor College of Medicine and Jan and Dan Duncan Neurological Research Institute. I have received my Ph.D. degree in computer science from Ajou University, in August 2015, and started the postdoctoral associate position in the lab of Dr. Zhandong Liu, and co-mentored by Dr. Huda Zoghbi, since September 2015.
+
+During the Ph.D. studies, I was highly focused on the development of integrative network analysis framework for multiple omics data using information-theoretic measure. I am now focusing on developing quantification algorithm and computational pipeline construction for NGS data for the neurological disorder.
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Ajou University
+
+Ph.D. in Computer Science and Engineering
+
+Suwon, South Korea
+
+2009 - 2015
+
+Thesis: Integrative network analysis framework for multiple omics data using information-theoretic measure
+
+### Ajou University
+
+M.Eng. in Information and Communication Technology
+
+Suwon, South Korea
+
+2007 - 2009
+
+Thesis: Missing SNP genotype imputation by heuristic algorithm
+
+### Ajou University
+
+B.S. in Information and Computer Engineering
+
+Suwon, South Korea
+
+2003 - 2007
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Postdoctoral Associate
+
+Department of molecular and human genetics, Baylor college of medicine
+
+Houston, Texas
+
+2015 - Present
+
+- Mentor: Huda Zhogbi and Zhandong Liu
+
+
+### Research assistant
+
+Health Avatar Project, National Core Research Center(NCRC)
+
+Suwon, South Korea
+
+2014 - 2015
+
+- Developed an multi-omics data intergration software (MINA) integrative omics data analysis using clinical outcome-guided mutual information network.
+
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### C Programming
+
+Part time Instructor of C programming at Ajou University. 
+
+Suwon, South Korea
+
+2014 - 2015
+
+### Software problem solving skill training
+
+Instructor of the training course at Ajou University.
+
+Suwon, South Korea
+
+2015
+
+
+Selected Peer-Reviewed Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+```{r, results='asis', echo=FALSE}
+suppressMessages(library(glue))
+suppressMessages(library(tidyverse))
+load("publications.rData")
+black_list <- c("9yKSN-GCB0IC", "M3ejUd6NZC8C")
+for (i in 1:nrow(pubs)){
+  title <- pubs[i, "title"]
+  pubid <- pubs[i,"pubid"]
+  author <- pubs[i, "author"]
+  year <- pubs[i, "year"]
+  journal <- pubs[i, "journal"]
+  cites <- pubs[i, "cites"]
+  if(pubid %in% black_list) {
+    next()
+  }
+  if(journal == "") {
+    next()
+  }
+  
+  if(year <= 2015) {
+    next()
+  }
+  
+  if(year < 2018 & cites < 5) {
+    next()
+  }
+  cat("### {title}" %>% glue)
+  cat('\n\n')
+  cat('{journal}' %>% glue)
+  cat('\n\n')
+  cat('N/A') 
+  cat('\n\n')
+  cat('{year}' %>% glue) 
+  cat('\n\n')
+  cat('{author}' %>% glue) 
+  cat('\n\n')
+}
+```
+
+
+
