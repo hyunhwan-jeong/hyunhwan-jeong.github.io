@@ -137,6 +137,7 @@ Selected Peer-Reviewed Publications {data-icon=file}
 ```{r, results='asis', echo=FALSE}
 suppressMessages(library(glue))
 suppressMessages(library(tidyverse))
+suppressMessages(library(stringr))
 load("publications.rData")
 black_list <- c("9yKSN-GCB0IC", "M3ejUd6NZC8C")
 for (i in 1:nrow(pubs)){
@@ -146,6 +147,9 @@ for (i in 1:nrow(pubs)){
   year <- pubs[i, "year"]
   journal <- pubs[i, "journal"]
   cites <- pubs[i, "cites"]
+  
+  author <- str_replace(author, ", \\.\\.\\.", " <i>et al.</i>") %>% 
+    str_replace("HH Jeong", "**HH Jeong**")
   if(pubid %in% black_list) {
     next()
   }
