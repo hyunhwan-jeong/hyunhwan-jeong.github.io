@@ -50,9 +50,12 @@ Hyun-Hwan Jeong {#title}
 
 ### Postdoctoral Associate
 
-I am a postdoctoral associate in Department of Molecular and Human Genetics at the Baylor College of Medicine and Jan and Dan Duncan Neurological Research Institute. I have received my Ph.D. degree in computer science from Ajou University, in August 2015, and started the postdoctoral associate position in the lab of Dr. Zhandong Liu, and co-mentored by Dr. Huda Zoghbi, since September 2015.
+I am a postdoctoral associate in the [Department of Molecular and Human Genetics](https://www.bcm.edu/departments/molecular-and-human-genetics) at the [Baylor College of Medicine](https://www.bcm.edu/) and [Jan and Dan Duncan Neurological Research Institute](https://nri.texaschildrens.org/). I have received my Ph.D. degree in computer science from [Ajou University](https://www.ajou.ac.kr/en/) in August 2015 and started the postdoctoral position in the lab of [Dr. Zhandong Liu](http://www.liuzlab.org/), and co-mentored by [Dr. Huda Zoghbi](https://en.wikipedia.org/wiki/Huda_Zoghbi), since September 2015.
 
-During the Ph.D. studies, I was highly focused on the development of integrative network analysis framework for multiple omics data using information-theoretic measure. I am now focusing on developing quantification algorithm and computational pipeline construction for NGS data for the neurological disorder.
+During my Ph.D. studies, I was highly focused on the development of integrative network analysis framework for multiple omics data using information-theoretic measure . I am now focusing on developing a quantification algorithm and computational pipeline construction for NGS data for the neurological disorder.
+
+I am also a developer of [SalmonTE](https://github.com/LiuzLab/SalmonTE) and [CB<sup>2</sup>](https://github.com/LiuzLab/CB2).
+
 
 
 
@@ -98,7 +101,7 @@ Houston, Texas
 
 2015 - Present
 
-- Mentor: Huda Zhogbi and Zhandong Liu
+- Mentor: Huda Zoghbi and Zhandong Liu
 
 ### Research assistant
 
@@ -138,33 +141,31 @@ Selected Peer-Reviewed Publications {data-icon=file}
 suppressMessages(library(glue))
 suppressMessages(library(tidyverse))
 suppressMessages(library(stringr))
-load("publications.rData")
-black_list <- c("9yKSN-GCB0IC", "M3ejUd6NZC8C")
-for (i in 1:nrow(pubs)){
-  title <- pubs[i, "title"]
-  pubid <- pubs[i,"pubid"]
-  author <- pubs[i, "author"]
-  year <- pubs[i, "year"]
-  journal <- pubs[i, "journal"]
-  cites <- pubs[i, "cites"]
+suppressMessages(library(rcrossref))
+
+suppressMessages(doi <- read_csv("doi.csv"))
+
+for(d in doi$doi) {
+  cn_obj <- cr_cn(dois = d, "citeproc-json")
   
-  author <- str_replace(author, ", \\.\\.\\.", " <i>et al.</i>") %>% 
-    str_replace("HH Jeong", "**HH Jeong**")
-  if(pubid %in% black_list) {
-    next()
-  }
-  if(journal == "") {
-    next()
+  title <- cn_obj$title
+  journal <- cn_obj$`container-title`
+  year <- cn_obj$`published-print`$`date-parts`[1]
+  if(is.null(year)) year <- cn_obj$issued$`date-parts`[1]
+  
+  link <- cn_obj$URL
+  
+  clean_author_list <- function(cn_obj) {
+    author <- cn_obj$author %>% unite("name", c("given", "family"), sep = " ")
+    author <- author$name
+    mine <- author %in% c("Hyun-Hwan Jeong", "Hyun-hwan Jeong")
+    author[mine] <- str_c("**", author[mine], "**")
+    str_c(author, collapse = ", ")
   }
   
-  if(year <= 2015) {
-    next()
-  }
+  author <- clean_author_list(cn_obj)
   
-  if(year < 2018 & cites < 5) {
-    next()
-  }
-  cat("### {title}" %>% glue)
+  cat("### [{title}]({link})" %>% glue)
   cat('\n\n')
   cat('{journal}' %>% glue)
   cat('\n\n')
@@ -175,4 +176,5 @@ for (i in 1:nrow(pubs)){
   cat('{author}' %>% glue) 
   cat('\n\n')
 }
+
 ```
