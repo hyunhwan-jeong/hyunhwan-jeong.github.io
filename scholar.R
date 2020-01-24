@@ -1,5 +1,6 @@
 library(rcrossref)
 library(tidyverse)
+library(glue)
 
 doi <- read_csv("doi.csv")
 
