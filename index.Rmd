@@ -8,6 +8,16 @@ output:
     self_contained: false
 ---
 
+<style>
+.blocks {
+  break-inside: avoid;
+}
+a {
+  color: black;
+}
+
+</style>
+
 Aside
 ================================================================================
 
@@ -26,7 +36,7 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Experienced in algorithm design and statistical learning models.
+- Experienced in algorithm design and statistical machine learning.
 
 - Full experience with next generation sequencing data analysis.
 
@@ -48,90 +58,88 @@ Main
 Hyun-Hwan Jeong {#title}
 --------------------------------------------------------------------------------
 
-### Postdoctoral Associate
-
-I am a postdoctoral associate in the [Department of Molecular and Human Genetics](https://www.bcm.edu/departments/molecular-and-human-genetics) at the [Baylor College of Medicine](https://www.bcm.edu/) and [Jan and Dan Duncan Neurological Research Institute](https://nri.texaschildrens.org/). I have received my Ph.D. degree in computer science from [Ajou University](https://www.ajou.ac.kr/en/) in August 2015 and started the postdoctoral position in the lab of [Dr. Zhandong Liu](http://www.liuzlab.org/), and co-mentored by [Dr. Huda Zoghbi](https://en.wikipedia.org/wiki/Huda_Zoghbi), since September 2015.
-
-During my Ph.D. studies, I was highly focused on the development of integrative network analysis framework for multiple omics data using information-theoretic measure . I am now focusing on developing a quantification algorithm and computational pipeline construction for NGS data for the neurological disorder.
-
-I am also a developer of [SalmonTE](https://github.com/LiuzLab/SalmonTE) and [CB<sup>2</sup>](https://github.com/LiuzLab/CB2).
+### Computer Scientist & Computational Biologist
 
 
-
-
-Education {data-icon=graduation-cap data-concise=true}
+Software {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### Ajou University
+### CB2 (https://CRAN.R-project.org/package=CB2)
 
-Ph.D. in Computer Science and Engineering
+CB2 is a R package which helps CRISPR pooled screen data analysis from the quantification to the hit gene selection. 
 
-Suwon, South Korea
+N/A
 
-2009 - 2015
+N/A
 
-Thesis: Integrative network analysis framework for multiple omics data using information-theoretic measure
+### CRISPRCloud2 (https://crispr.nrihub.org/)
 
-### Ajou University
+CRISPRCloud2 is a user-friendly, cloud-based, and one-stop analysis platform for the deconvolution of CRISPR pooled screen high-throughput sequencing data.
 
-M.Eng. in Information and Communication Technology
+N/A
 
-Suwon, South Korea
+N/A
 
-2007 - 2009
 
-Thesis: Missing SNP genotype imputation by heuristic algorithm
+### SalmonTE (https://github.com/LiuzLab/SalmonTE)
 
-### Ajou University
+SalmonTE is an ultra-Fast and Scalable Quantification Pipeline of Transpose Element abundances from Next Generation Sequencing Data.
 
-B.S. in Information and Computer Engineering
+N/A
 
-Suwon, South Korea
+N/A
 
-2003 - 2007
+###  MINA (https://github.com/hyunhwaj/MINA)
 
-Research Experience {data-icon=laptop}
+MINA is a framework that allows to perform an integrative network analysis for gene-gene interactions associated with clinical outcome across multi-omics profiles.
+
+N/A
+
+N/A
+
+
+
+Research Experience {data-icon=building}
 --------------------------------------------------------------------------------
 
 ### Postdoctoral Associate
 
-Department of molecular and human genetics, Baylor college of medicine
+Department of molecular and human genetics, Baylor college of medicine & Texas Children's hospital
 
 Houston, Texas
 
 2015 - Present
 
-- Mentor: Huda Zoghbi and Zhandong Liu
-
-### Research assistant
-
-Health Avatar Project, National Core Research Center(NCRC)
-
-Suwon, South Korea
-
-2014 - 2015
-
-- Developed an multi-omics data intergration software (MINA) integrative omics data analysis using clinical outcome-guided mutual information network.
+- Mentor: Zhandong Liu and Huda Zoghbi
 
 
-Teaching Experience {data-icon=chalkboard-teacher}
+Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### C Programming
+### Ph.D. in Computer Science and Engineering
 
-Part time Instructor of C programming at Ajou University. 
-
-Suwon, South Korea
-
-2014 - 2015
-
-### Software problem solving skill training
-
-Instructor of the training course at Ajou University.
+Ajou University
 
 Suwon, South Korea
 
 2015
+
+###  M.Eng. in Information and Communication Technology
+
+Ajou University
+
+Suwon, South Korea
+
+2009
+
+### B.S. in Information and Computer Engineering
+
+Ajou University
+
+Suwon, South Korea
+
+2007
+
 
 
 Selected Peer-Reviewed Publications {data-icon=file}
