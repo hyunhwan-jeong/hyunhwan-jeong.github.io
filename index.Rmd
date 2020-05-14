@@ -28,9 +28,10 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> hyun-hwan.jeong@bcm.edu
+- <i class="fa fa-envelope"></i> jeong.hyunhwan@gmail.com
 - <i class="fa fa-github"></i> [github.com/hyunhwaj](https://github.com/hyunhwaj)
-- For more information, please contact me via email.
+- <i class="fa fa-twitter"></i> [\@hyunhwanj](https://twitter.com/hyunhwanj)
+- For more information, please contact me via email or visit mu google scholar page: [tinyurl.com/y8j3h5by](https://tinyurl.com/y8j3h5by).
 
 
 Skills {#skills}
@@ -186,3 +187,55 @@ for(d in doi$doi) {
 }
 
 ```
+
+HONORS AND AWARDS
+--------------------------------------------------------------------------------
+
+### Travel Fellowship
+
+The International Conference on Intelligent Systems for Molecular Biology / the European Conference on Computational Biology
+
+Basel, Switzerland
+
+2019 
+
+
+### TMC Biomedical Faculty Award
+
+2019 Korean-American Biomedical Scientists Symposium (KABMS)
+
+Houston, Texas
+
+2019
+
+### Travel Fellowship
+
+The Summer School in Systems Medicine
+
+Frauenchiemsee, Germany
+
+2018
+
+### First place
+
+Java Algorithm Contest (both years)
+
+SUN Microsystems, Korea
+
+2008 - 2009
+
+### Sixth place
+
+The ACM International Collegiate Programming Contest (ACM-ICPC) Asia regional contest
+
+Taipei, Taiwan
+
+2007
+
+### Bronze medal
+
+The ACM International Collegiate Programming Contest (ACM-ICPC) Asia regional contest 
+
+Seoul, South Korea
+
+2005
