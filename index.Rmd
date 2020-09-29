@@ -103,13 +103,21 @@ N/A
 Research Experience {data-icon=building}
 --------------------------------------------------------------------------------
 
+### Research Assistant Professor
+
+School of Biomedical Informatics, The University of Texas Health Science Center at Houston
+
+Houston, Texas
+
+2020 - Present
+
 ### Postdoctoral Associate
 
 Department of molecular and human genetics, Baylor college of medicine & Texas Children's hospital
 
 Houston, Texas
 
-2015 - Present
+2015 - 2020
 
 - Mentor: Zhandong Liu and Huda Zoghbi
 
