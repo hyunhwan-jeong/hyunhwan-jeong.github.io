@@ -29,9 +29,9 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> jeong.hyunhwan@gmail.com
-- <i class="fa fa-github"></i> [github.com/hyunhwaj](https://github.com/hyunhwaj)
-- <i class="fa fa-twitter"></i> [\@hyunhwanj](https://twitter.com/hyunhwanj)
-- For more information, please contact me via email or visit mu google scholar page: [tinyurl.com/y8j3h5by](https://tinyurl.com/y8j3h5by).
+- <i class="fa fa-github"></i> [github.com/hyunhwan-jeong](https://github.com/hyunhwan-jeong)
+- <i class="fa fa-twitter"></i> [\@hyunhwan_jeong](https://twitter.com/hyunhwan_jeong)
+- <i class="fa fa-graduation-cap"></i> [tinyurl.com/y8j3h5by](https://tinyurl.com/y8j3h5by)
 
 
 Skills {#skills}
@@ -82,7 +82,7 @@ N/A
 N/A
 
 
-### SalmonTE (https://github.com/LiuzLab/SalmonTE)
+### SalmonTE (https://github.com/hyunhwan-jeong/SalmonTE)
 
 SalmonTE is an ultra-Fast and Scalable Quantification Pipeline of Transpose Element abundances from Next Generation Sequencing Data.
 
@@ -90,7 +90,7 @@ N/A
 
 N/A
 
-###  MINA (https://github.com/hyunhwaj/MINA)
+###  MINA (https://github.com/hyunhwan-jeong/MINA)
 
 MINA is a framework that allows to perform an integrative network analysis for gene-gene interactions associated with clinical outcome across multi-omics profiles.
 
@@ -109,7 +109,7 @@ School of Biomedical Informatics, The University of Texas Health Science Center 
 
 Houston, Texas
 
-2020 - Present
+2020 - 2021
 
 ### Postdoctoral Associate
 
@@ -154,11 +154,11 @@ Suwon, South Korea
 Selected Peer-Reviewed Publications {data-icon=file}
 --------------------------------------------------------------------------------
 
-```{r, results='asis', echo=FALSE}
-suppressMessages(library(glue))
-suppressMessages(library(tidyverse))
-suppressMessages(library(stringr))
-suppressMessages(library(rcrossref))
+```{r, results='asis', echo=FALSE, messages=FALSE, warnings=FALSE}
+suppressWarnings(suppressMessages(library(glue)))
+suppressWarnings(suppressMessages(library(tidyverse)))
+suppressWarnings(suppressMessages(library(stringr)))
+suppressWarnings(suppressMessages(library(rcrossref)))
 
 suppressMessages(doi <- read_csv("doi.csv"))
 
