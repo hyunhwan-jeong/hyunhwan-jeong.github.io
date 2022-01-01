@@ -59,7 +59,7 @@ Main
 Hyun-Hwan Jeong {#title}
 --------------------------------------------------------------------------------
 
-### Computer Scientist & Computational Biologist
+### Computational Biologist/Computer Scientist 
 
 
 Software {data-icon=laptop}
@@ -99,9 +99,16 @@ N/A
 N/A
 
 
-
 Research Experience {data-icon=building}
 --------------------------------------------------------------------------------
+
+### Senior Scientist, Computational Biology
+
+4:59 NewCo, a 5AM Ventures Company
+
+Boston, Massachusetts
+
+2021 - 
 
 ### Research Assistant Professor
 
