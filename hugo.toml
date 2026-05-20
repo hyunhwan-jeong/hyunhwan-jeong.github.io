@@ -1,6 +1,6 @@
 baseURL = "https://hyunhwan-jeong.github.io/"
 locale = "en-us"
-title = "Jeong Lab | Baylor College of Medicine"
+title = "Jeong Lab | BCM"
 theme = "paper"
 
 [params]
