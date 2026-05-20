@@ -1,64 +1,204 @@
-# Preprints / In Press
-- title: "LA-MARRVEL: A Knowledge-Grounded, Language-Aware LLM Framework for Clinically Robust Rare Disease Gene Prioritization"
-  authors: "Lee J, Yao L, Jeong H-H†, Liu Z†"
-  journal: "arXiv (under review, npj Digital Medicine)"
+- title: 'LA-MARRVEL: A Knowledge-Grounded, Language-Aware LLM Framework for Clinically Robust Rare Disease Gene Prioritization'
+  authors: Lee J, Yao L, Jeong H-H†, Liu Z†
+  journal: arXiv (under review, npj Digital Medicine)
   year: 2026
-  doi: "10.48550/arXiv.2511.02263"
-  url: "https://arxiv.org/abs/2511.02263"
-
-- title: "CLINPREAI: An Agentic AI System for Early Postpartum Depression Risk Prediction from Multimodal EHR Data"
-  authors: "Palacios D, Aras S, Zhong Y, Zhao J, Pasupupulati S, Jeong H-H, Miller E, et al."
-  journal: "medRxiv"
+  doi: 10.48550/arXiv.2511.02263
+  url: https://arxiv.org/abs/2511.02263
+- title: 'CLINPREAI: An Agentic AI System for Early Postpartum Depression Risk Prediction from Multimodal EHR Data'
+  authors: Palacios D, Aras S, Zhong Y, Zhao J, Pasupupulati S, Jeong H-H, Miller E, et al.
+  journal: medRxiv
   year: 2026
-  doi: "10.1101/2025.11.14.25340265"
-  url: "https://doi.org/10.1101/2025.11.14.25340265"
-
-- title: "MARRVEL-MCP: A Context-Engineered Natural-Language Query-to-Response Interface for Mendelian Disease Discovery"
-  authors: "Everton Z, Botas J, Kim SY, Liu Z†, Jeong H-H†"
-  journal: "American Journal of Human Genetics (accepted 2026-04-29)"
+  doi: 10.1101/2025.11.14.25340265
+  url: https://doi.org/10.1101/2025.11.14.25340265
+- title: 'MARRVEL-MCP: A Context-Engineered Natural-Language Query-to-Response Interface for Mendelian Disease Discovery'
+  authors: Everton Z, Botas J, Kim SY, Liu Z†, Jeong H-H†
+  journal: American Journal of Human Genetics (accepted 2026-04-29)
   year: 2026
-  doi: "10.1101/2025.11.26.690887"
-  url: "https://doi.org/10.1101/2025.11.26.690887"
-
-- title: "ConSol: Sequential Probability Ratio Testing to Find Consistent LLM Reasoning Paths Efficiently"
-  authors: "Lee J, Qi G, Neeley MB, Liu Z†, Jeong H-H†"
-  journal: "arXiv"
+  doi: 10.1101/2025.11.26.690887
+  url: https://doi.org/10.1101/2025.11.26.690887
+- title: 'ConSol: Sequential Probability Ratio Testing to Find Consistent LLM Reasoning Paths Efficiently'
+  authors: Lee J, Qi G, Neeley MB, Liu Z†, Jeong H-H†
+  journal: arXiv
   year: 2025
-  doi: "10.48550/arXiv.2503.17587"
-  url: "https://arxiv.org/abs/2503.17587"
-
-# Peer-Reviewed Publications
-- title: "Are HHV-6A and HHV-7 Really More Abundant in Alzheimer's Disease?"
-  authors: "Jeong H-H, Liu Z"
-  journal: "Neuron"
+  doi: 10.48550/arXiv.2503.17587
+  url: https://arxiv.org/abs/2503.17587
+- title: 'Comprehensive epigenomic profiling from plasma to inform therapy selection: A proof-of-concept study in cancer'
+  authors: Clark, Travis, Seo, Ji-Heui, D'Ippolito, Anthony, Gorthi, Aparna, Beagan, Jonathan, Guess, Jamey, Donahue, Amy, Greene, Mandy, et al.
+  journal: Cancer Research
+  year: 2024
+  doi: 10.1158/1538-7445.am2024-963
+  url: https://doi.org/10.1158/1538-7445.am2024-963
+- title: Novel liquid biopsy based determination of lung cancer histology using a comprehensive epigenomic platform reveals enhancer activity as a key determinant for accurate classification
+  authors: Guess, Jamey, Gorthi, Aparna, D'ippolity, Anthony, Beagan, Jonathan, Clark, Travis, Coyne, Michael, Tamakloe, Tyrone, Tran, Baovy, et al.
+  journal: Cancer Research
+  year: 2024
+  doi: 10.1158/1538-7445.am2024-7558
+  url: https://doi.org/10.1158/1538-7445.am2024-7558
+- title: Literature-based predictions of Mendelian disease therapies
+  authors: Deisseroth, Cole A, Lee, Won-Seok, Kim, Jiyoen, Jeong, Hyun-Hwan, Dhindsa, Ryan S, Wang, Julia, Zoghbi, Huda Y, Liu, Zhandong
+  journal: The American Journal of Human Genetics
+  year: 2023
+  doi: 10.1016/j.ajhg.2023.08.018
+  url: https://doi.org/10.1016/j.ajhg.2023.08.018
+- title: Evolutionarily conserved regulators of tau identify targets for new therapies
+  authors: Kim, Jiyoen, de Haro, Maria, Al-Ramahi, Ismael, Garaicoechea, Lorena Laura, Jeong, Hyun-Hwan, Sonn, Jun Young, Tadros, Bakhos, Liu, Zhandong, et al.
+  journal: Neuron
+  year: 2023
+  doi: 10.1016/j.neuron.2022.12.012
+  url: https://doi.org/10.1016/j.neuron.2022.12.012
+- title: Genetic Inactivation of $\beta$-Catenin Attenuates and Its Activation Aggravates Desmoplakin Cardiomyopathy
+  authors: Olcum, Melis, Fan, Siyang, Rouhi, Leila, Cheedipudi, Sirisha, Cathcart, Benjamin, Jeong, Hyun-Hwan, Zhao, Zhongming, Gurha, Priyatansh, et al.
+  journal: bioRxiv
+  year: 2023
+  doi: 10.1101/2023.03.02.530831
+  url: https://doi.org/10.1101/2023.03.02.530831
+- title: PANoptosis is a prominent feature of desmoplakin cardiomyopathy
+  authors: Olcum, Melis, Rouhi, Leila, Fan, Siyang, Gonzales, Maya M, Jeong, Hyun-Hwan, Zhao, Zhongming, Gurha, Priyatansh, Marian, Ali J
+  journal: The journal of cardiovascular aging
+  year: 2023
+  doi: 10.20517/jca.2022.34
+  url: https://doi.org/10.20517/jca.2022.34
+- title: Literature-based predictions of treatments for genetic disease pathology
+  authors: Deisseroth, Cole A, Lee, Won-Seok, Kim, Ji-Yoen, Jeong, Hyun-Hwan, Wang, Julia, Zoghbi, Huda Y, Liu, Zhandong
+  journal: bioRxiv
+  year: 2022
+  doi: 10.1101/2022.09.08.506253
+  url: https://doi.org/10.1101/2022.09.08.506253
+- title: Obstructive sleep apnea and dementia-common gene associations through network-based identification of common driver genes
+  authors: Jeong, Hyun-Hwan, Chandrakantan, Arvind, Adler, Adam C
+  journal: Genes
+  year: 2021
+  doi: 10.3390/genes12040542
+  url: https://doi.org/10.3390/genes12040542
+- title: A comprehensive evaluation of CRISPR lineage recorders using TraceQC
+  authors: Hu, Jingyuan, Jeong, Hyun-Hwan, Al-Ouran, Rami, Bado, Igor, Zhang, Weijie, Zhang, Xiang, Liu, Zhandong
+  journal: bioRxiv
+  year: 2021
+  doi: 10.1101/2021.10.29.466515
+  url: https://doi.org/10.1101/2021.10.29.466515
+- title: Investigating cellular trajectories in the severity of COVID-19 and their transcriptional programs using machine learning approaches
+  authors: Jeong, Hyun-Hwan, Jia, Johnathan, Dai, Yulin, Simon, Lukas M, Zhao, Zhongming
+  journal: Genes
+  year: 2021
+  doi: 10.3390/genes12050635
+  url: https://doi.org/10.3390/genes12050635
+- title: The bone microenvironment invigorates metastatic seeds for further dissemination
+  authors: Zhang, Weijie, Bado, Igor L, Hu, Jingyuan, Wan, Ying-Wooi, Wu, Ling, Wang, Hai, Gao, Yang, Jeong, Hyun-Hwan, et al.
+  journal: Cell
+  year: 2021
+  doi: 10.1101/2020.11.16.383828
+  url: https://doi.org/10.1101/2020.11.16.383828
+- title: Phenotypic plasticity of ER+ breast cancer in the bone microenvironment
+  authors: Bado, Igor L, Wang, Hai, Hu, Jingyuan, Sarkar, Poonam, Liu, Jun, Gugala, Zbigniew, Xu, Zhan, Zhang, Weijie, et al.
+  journal: bioRxiv
+  year: 2020
+  doi: 10.1101/2020.11.14.383000
+  url: https://doi.org/10.1101/2020.11.14.383000
+- title: Are HHV-6A and HHV-7 Really More Abundant in Alzheimer's Disease?
+  authors: Jeong H-H, Liu Z
+  journal: Neuron
   year: 2019
-  doi: "10.1016/j.neuron.2019.11.009"
-  url: "https://doi.org/10.1016/j.neuron.2019.11.009"
-
-- title: "Beta-binomial modeling of CRISPR pooled screen data identifies target genes with greater sensitivity and fewer false negatives"
-  authors: "Jeong H-H, Kim SY, Rousseaux MWC, Zoghbi HY, Liu Z"
-  journal: "Genome Research"
+  doi: 10.1016/j.neuron.2019.11.009
+  url: https://doi.org/10.1016/j.neuron.2019.11.009
+- title: Beta-binomial modeling of CRISPR pooled screen data identifies target genes with greater sensitivity and fewer false negatives
+  authors: Jeong H-H, Kim SY, Rousseaux MWC, Zoghbi HY, Liu Z
+  journal: Genome Research
   year: 2019
-  doi: "10.1101/gr.245571.118"
-  url: "https://doi.org/10.1101/gr.245571.118"
-
-- title: "Tau Activates Transposable Elements in Alzheimer's Disease"
-  authors: "Guo C, Jeong H-H, Hsieh Y-C, Klein H-U, Bennett DA, De Jager PL, Liu Z, Shulman JM"
-  journal: "Cell Reports"
+  doi: 10.1101/gr.245571.118
+  url: https://doi.org/10.1101/gr.245571.118
+- title: 'ClearF: a supervised feature scoring method to find biomarkers using class-wise embedding and reconstruction'
+  authors: Wang, Sehee, Jeong, Hyun-Hwan, Sohn, Kyung-Ah
+  journal: BMC medical genomics
+  year: 2019
+  doi: 10.1186/s12920-019-0512-9
+  url: https://doi.org/10.1186/s12920-019-0512-9
+- title: Topological integration of RPPA proteomic data with multi-omics data for survival prediction in breast cancer via pathway activity inference
+  authors: Kim, Tae Rim, Jeong, Hyun-Hwan, Sohn, Kyung-Ah
+  journal: BMC medical genomics
+  year: 2019
+  doi: 10.1186/s12920-019-0511-x
+  url: https://doi.org/10.1186/s12920-019-0511-x
+- title: Robust pathway-based multi-omics data integration using directed random walks for survival prediction in multiple cancer studies
+  authors: Kim, So Yeon, Jeong, Hyun-Hwan, Kim, Jaesik, Moon, Jeong-Hyeon, Sohn, Kyung-Ah
+  journal: Biology direct
+  year: 2019
+  doi: 10.1186/s13062-019-0239-8
+  url: https://doi.org/10.1186/s13062-019-0239-8
+- title: Tau Activates Transposable Elements in Alzheimer's Disease
+  authors: Guo C, Jeong H-H, Hsieh Y-C, Klein H-U, Bennett DA, De Jager PL, Liu Z, Shulman JM
+  journal: Cell Reports
   year: 2018
-  doi: "10.1016/j.celrep.2018.05.004"
-  url: "https://doi.org/10.1016/j.celrep.2018.05.004"
-
-- title: "An ultra-fast and scalable quantification pipeline for transposable elements from next generation sequencing data"
-  authors: "Jeong H-H, Yalamanchili HK, Guo C, Shulman JM, Liu Z"
-  journal: "Biocomputing 2018 (Pacific Symposium on Biocomputing)"
+  doi: 10.1016/j.celrep.2018.05.004
+  url: https://doi.org/10.1016/j.celrep.2018.05.004
+- title: An ultra-fast and scalable quantification pipeline for transposable elements from next generation sequencing data
+  authors: Jeong H-H, Yalamanchili HK, Guo C, Shulman JM, Liu Z
+  journal: Biocomputing 2018 (Pacific Symposium on Biocomputing)
   year: 2018
-  doi: "10.1142/9789813235533_0016"
-  url: "https://doi.org/10.1142/9789813235533_0016"
-
-- title: "CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution"
-  authors: "Jeong H-H, Kim SY, Rousseaux MWC, Zoghbi HY, Liu Z"
-  journal: "Bioinformatics"
+  doi: 10.1142/9789813235533_0016
+  url: https://doi.org/10.1142/9789813235533_0016
+- title: Tau activates transposable elements in Alzheimer’s disease
+  authors: Guo, Caiwei, Jeong, Hyun-Hwan, Hsieh, Yi-Chen, Klein, Hans-Ulrich, Bennett, David A, De Jager, Philip L, Liu, Zhandong, Shulman, Joshua M
+  journal: Cell reports
+  year: 2018
+  doi: 10.1016/j.celrep.2018.05.004
+  url: https://doi.org/10.1016/j.celrep.2018.05.004
+- title: Integrative pathway-based survival prediction utilizing the interaction between gene expression and DNA methylation in breast cancer
+  authors: Kim, So Yeon, Kim, Tae Rim, Jeong, Hyun-Hwan, Sohn, Kyung-Ah
+  journal: BMC medical genomics
+  year: 2018
+  doi: 10.1186/s12920-018-0389-z
+  url: https://doi.org/10.1186/s12920-018-0389-z
+- title: Decoding TDP-43 Dependent Cryptic Splicing in Amyotrophic Lateral Sclerosis and Identifying Novel Disease-causing Genes
+  authors: Yalamanchili, Hari Krishna, Jeong, Hyun-Hwan, Liu, Zhandong
+  journal: Proceedings of the 2018 ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics
+  year: 2018
+  doi: 10.1145/3233547.3233698
+  url: https://doi.org/10.1145/3233547.3233698
+- title: 'CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution'
+  authors: Jeong H-H, Kim SY, Rousseaux MWC, Zoghbi HY, Liu Z
+  journal: Bioinformatics
   year: 2017
-  doi: "10.1093/bioinformatics/btx335"
-  url: "https://doi.org/10.1093/bioinformatics/btx335"
+  doi: 10.1093/bioinformatics/btx335
+  url: https://doi.org/10.1093/bioinformatics/btx335
+- title: Subunit conformational variation within individual GroEL oligomers resolved by Cryo-EM
+  authors: Roh, Soung-Hun, Hryc, Corey F, Jeong, Hyun-Hwan, Fei, Xue, Jakana, Joanita, Lorimer, George H, Chiu, Wah
+  journal: Proceedings of the National Academy of Sciences
+  year: 2017
+  doi: 10.1073/pnas.1704725114
+  url: https://doi.org/10.1073/pnas.1704725114
+- title: Integrative information theoretic network analysis for genome-wide association study of aspirin exacerbated respiratory disease in Korean population
+  authors: Wang, Sehee, Jeong, Hyun-hwan, Kim, Dokyoon, Wee, Kyubum, Park, Hae-Sim, Kim, Seung-Hyun, Sohn, Kyung-Ah
+  journal: BMC medical genomics
+  year: 2017
+  doi: 10.1186/s12920-017-0266-1
+  url: https://doi.org/10.1186/s12920-017-0266-1
+- title: 'hiHMM: Bayesian non-parametric joint inference of chromatin state maps'
+  authors: Sohn, Kyung-Ah, Ho, Joshua WK, Djordjevic, Djordje, Jeong, Hyun-hwan, Park, Peter J, Kim, Ju Han
+  journal: Bioinformatics
+  year: 2015
+  doi: 10.1093/bioinformatics/btv117
+  url: https://doi.org/10.1093/bioinformatics/btv117
+- title: Fast detection of high-order epistatic interactions in genome-wide association studies using information theoretic measure
+  authors: Leem, Sangseob, Jeong, Hyun-hwan, Lee, Jungseob, Wee, Kyubum, Sohn, Kyung-Ah
+  journal: Computational biology and chemistry
+  year: 2014
+  doi: 10.1016/j.compbiolchem.2014.01.005
+  url: https://doi.org/10.1016/j.compbiolchem.2014.01.005
+- title: Relevance epistasis network of gastritis for intra-chromosomes in the Korea associated resource (KARE) cohort study
+  authors: Jeong, Hyun-hwan, Sohn, Kyung-Ah
+  journal: Genomics \& informatics
+  year: 2014
+  doi: 10.5808/gi.2014.12.4.216
+  url: https://doi.org/10.5808/gi.2014.12.4.216
+- title: Protein interactome and its application to protein function prediction
+  authors: Jung, Woojin, Jeong, Hyun-Hwan, Lee, KiYoung
+  journal: Protein-Protein Interactions-Computational and Experimental Tools
+  year: 2012
+  doi: 10.5772/38413
+  url: https://doi.org/10.5772/38413
+- title: Association of four-locus gene interaction with aspirin-intolerant asthma in Korean asthmatics
+  authors: Kim, Seung-Hyun, Jeong, Hyun-Hwan, Cho, Bo-Young, Kim, MyoungKi, Lee, Hyun-Young, Lee, Jungseob, Wee, Kyubum, Park, Hae-Sim
+  journal: Journal of Clinical Immunology
+  year: 2008
+  doi: 10.1007/s10875-008-9190-7
+  url: https://doi.org/10.1007/s10875-008-9190-7
