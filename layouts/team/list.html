@@ -16,17 +16,11 @@
             {{ range $team }}
               {{ if ne .File.BaseFileName "_index" }}
                 <div class="team-member">
-                  <h2>{{ .Title }}</h2>
-                  <div class="team-member-details">
-                    <p><strong>Role:</strong> {{ .Params.role }}</p>
-                    <p><strong>Affiliation:</strong> {{ .Params.affiliation }}</p>
-                    {{ if .Params.graduation }}
-                      <p><strong>Expected Graduation:</strong> {{ .Params.graduation }}</p>
-                    {{ end }}
-                    {{ if .Params.summer2026 }}
-                      <p><strong>Summer 2026 Intern</strong></p>
-                    {{ end }}
-                  </div>
+                  <p>
+                    <strong>{{ .Params.role }}</strong> -
+                    {{ .Title }}
+                    ({{ .Params.affiliation }}{{ if .Params.graduation }}, {{ .Params.graduation }}{{ end }}{{ if .Params.summer }}, summer {{ .Params.summer }}{{ end }})
+                  </p>
                 </div>
               {{ end }}
             {{ end }}
