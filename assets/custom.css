@@ -45,7 +45,7 @@
 }
 
 /* Hiring callout dark mode */
-.hiring-callout {
+.dark .hiring-callout {
   background: #1f1f1f;
   border-left-color: #a08060;
 }
