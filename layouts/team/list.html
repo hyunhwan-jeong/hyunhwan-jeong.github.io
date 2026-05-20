@@ -11,7 +11,11 @@
                   <p>
                     <strong>{{ .Params.role }}</strong><br>
                     {{ .Title }}
+                    {{ if .Params.summer }}
                     ({{ .Params.affiliation }}, summer {{ .Params.summer }})
+                    {{ else }}
+                    ({{ .Params.affiliation }})
+                    {{ end }}
                   </p>
                 </div>
               {{ end }}
