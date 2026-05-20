@@ -44,6 +44,12 @@
   margin-top: 0;
 }
 
+/* Hiring callout dark mode */
+.hiring-callout {
+  background: #1f1f1f;
+  border-left-color: #a08060;
+}
+
 /* News list */
 .news-list {
   list-style: none;
