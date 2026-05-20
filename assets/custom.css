@@ -83,6 +83,20 @@
   margin-left: 0.4rem;
 }
 
+.doi-badge:hover {
+  background: #d0e3fc;
+}
+
+/* DOI badge dark mode */
+.dark .doi-badge {
+  background: #2a2f3a;
+  color: #d1d5db;
+}
+
+.dark .doi-badge:hover {
+  background: #3a404d;
+}
+
 /* Research tool cards */
 .tool-grid {
   display: grid;
