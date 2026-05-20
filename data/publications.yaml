@@ -1,0 +1,64 @@
+# Preprints / In Press
+- title: "LA-MARRVEL: A Knowledge-Grounded, Language-Aware LLM Framework for Clinically Robust Rare Disease Gene Prioritization"
+  authors: "Lee J, Yao L, Jeong H-H†, Liu Z†"
+  journal: "arXiv (under review, npj Digital Medicine)"
+  year: 2026
+  doi: "10.48550/arXiv.2511.02263"
+  url: "https://arxiv.org/abs/2511.02263"
+
+- title: "CLINPREAI: An Agentic AI System for Early Postpartum Depression Risk Prediction from Multimodal EHR Data"
+  authors: "Palacios D, Aras S, Zhong Y, Zhao J, Pasupupulati S, Jeong H-H, Miller E, et al."
+  journal: "medRxiv"
+  year: 2026
+  doi: "10.1101/2025.11.14.25340265"
+  url: "https://doi.org/10.1101/2025.11.14.25340265"
+
+- title: "MARRVEL-MCP: A Context-Engineered Natural-Language Query-to-Response Interface for Mendelian Disease Discovery"
+  authors: "Everton Z, Botas J, Kim SY, Liu Z†, Jeong H-H†"
+  journal: "American Journal of Human Genetics (accepted 2026-04-29)"
+  year: 2026
+  doi: "10.1101/2025.11.26.690887"
+  url: "https://doi.org/10.1101/2025.11.26.690887"
+
+- title: "ConSol: Sequential Probability Ratio Testing to Find Consistent LLM Reasoning Paths Efficiently"
+  authors: "Lee J, Qi G, Neeley MB, Liu Z†, Jeong H-H†"
+  journal: "arXiv"
+  year: 2025
+  doi: "10.48550/arXiv.2503.17587"
+  url: "https://arxiv.org/abs/2503.17587"
+
+# Peer-Reviewed Publications
+- title: "Are HHV-6A and HHV-7 Really More Abundant in Alzheimer's Disease?"
+  authors: "Jeong H-H, Liu Z"
+  journal: "Neuron"
+  year: 2019
+  doi: "10.1016/j.neuron.2019.11.009"
+  url: "https://doi.org/10.1016/j.neuron.2019.11.009"
+
+- title: "Beta-binomial modeling of CRISPR pooled screen data identifies target genes with greater sensitivity and fewer false negatives"
+  authors: "Jeong H-H, Kim SY, Rousseaux MWC, Zoghbi HY, Liu Z"
+  journal: "Genome Research"
+  year: 2019
+  doi: "10.1101/gr.245571.118"
+  url: "https://doi.org/10.1101/gr.245571.118"
+
+- title: "Tau Activates Transposable Elements in Alzheimer's Disease"
+  authors: "Guo C, Jeong H-H, Hsieh Y-C, Klein H-U, Bennett DA, De Jager PL, Liu Z, Shulman JM"
+  journal: "Cell Reports"
+  year: 2018
+  doi: "10.1016/j.celrep.2018.05.004"
+  url: "https://doi.org/10.1016/j.celrep.2018.05.004"
+
+- title: "An ultra-fast and scalable quantification pipeline for transposable elements from next generation sequencing data"
+  authors: "Jeong H-H, Yalamanchili HK, Guo C, Shulman JM, Liu Z"
+  journal: "Biocomputing 2018 (Pacific Symposium on Biocomputing)"
+  year: 2018
+  doi: "10.1142/9789813235533_0016"
+  url: "https://doi.org/10.1142/9789813235533_0016"
+
+- title: "CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution"
+  authors: "Jeong H-H, Kim SY, Rousseaux MWC, Zoghbi HY, Liu Z"
+  journal: "Bioinformatics"
+  year: 2017
+  doi: "10.1093/bioinformatics/btx335"
+  url: "https://doi.org/10.1093/bioinformatics/btx335"
