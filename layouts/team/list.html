@@ -2,14 +2,6 @@
   <div class="post">
     <div class="post-content">
       <div class="container">
-        <h1>Lab Team</h1>
-        
-        <section class="team-intro">
-          <p>
-            The Jeong Lab is composed of motivated students and researchers working together to advance computational biology and AI-driven disease diagnosis.
-          </p>
-        </section>
-
         {{ $team := where .Site.Pages "Type" "team" }}
         {{ if $team }}
           <section class="team-members">
@@ -17,7 +9,7 @@
               {{ if ne .File.BaseFileName "_index" }}
                 <div class="team-member">
                   <p>
-                    <strong>{{ .Params.role }}</strong> -
+                    <strong>{{ .Params.role }}</strong><br>
                     {{ .Title }}
                     ({{ .Params.affiliation }}, summer {{ .Params.summer }})
                   </p>
