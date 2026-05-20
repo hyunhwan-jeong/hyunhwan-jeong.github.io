@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -32,6 +33,15 @@ jobs:
 
       - name: Build site
         run: hugo --minify
+
+      - name: List public folder
+        run: |
+          echo "=== Public folder contents ==="
+          ls -la public/
+          echo "=== index.html exists? ==="
+          test -f public/index.html && echo "YES" || echo "NO"
+          echo "=== README exists? ==="
+          test -f README.md && echo "YES" || echo "NO"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
