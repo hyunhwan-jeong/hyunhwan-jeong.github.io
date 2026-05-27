@@ -1,3 +1,9 @@
+- title: 'MARRVEL-MCP: A Context-Engineered Natural-Language Query-to-Response Interface for Mendelian Disease Discovery'
+  authors: Everton Z, Botas J, Kim SY, Yao L, Liu Z†, Jeong H-H†
+  journal: American Journal of Human Genetics
+  year: 2026
+  doi: 10.1016/j.ajhg.2026.04.012
+  url: https://doi.org/10.1016/j.ajhg.2026.04.012
 - title: 'LA-MARRVEL: A Knowledge-Grounded, Language-Aware LLM Framework for Clinically Robust Rare Disease Gene Prioritization'
   authors: Lee J, Yao L, Jeong H-H†, Liu Z†
   journal: arXiv (under review, npj Artificial Intellegence)
@@ -10,12 +16,6 @@
   year: 2026
   doi: 10.1101/2025.11.14.25340265
   url: https://doi.org/10.1101/2025.11.14.25340265
-- title: 'MARRVEL-MCP: A Context-Engineered Natural-Language Query-to-Response Interface for Mendelian Disease Discovery'
-  authors: Everton Z, Botas J, Kim SY, Liu Z†, Jeong H-H†
-  journal: American Journal of Human Genetics (accepted 2026-04-29)
-  year: 2026
-  doi: 10.1101/2025.11.26.690887
-  url: https://doi.org/10.1101/2025.11.26.690887
 - title: 'ConSol: Sequential Probability Ratio Testing to Find Consistent LLM Reasoning Paths Efficiently'
   authors: Lee J, Qi G, Neeley MB, Liu Z†, Jeong H-H†
   journal: arXiv
