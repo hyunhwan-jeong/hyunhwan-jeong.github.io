@@ -2,25 +2,42 @@
   <div class="post">
     <div class="post-content">
       <div class="container">
-        {{ $team := where .Site.Pages "Type" "team" }}
-        {{ if $team }}
-          <section class="team-members">
-            {{ range $team }}
-              {{ if ne .File.BaseFileName "_index" }}
+        {{ $team := where .Site.RegularPages "Type" "team" }}
+        {{ $sections := slice "Principal Investigator" "Graduate Student" "Undergraduate Intern" }}
+        {{ range $role := $sections }}
+          {{ $members := where $team "Params.role" $role }}
+          {{ if $members }}
+            <section class="team-members">
+              <h2>{{ $role }}</h2>
+              {{ range $members.ByTitle }}
                 <div class="team-member">
                   <p>
-                    <strong>{{ .Params.role }}</strong><br>
                     {{ .Title }}
-                    {{ if .Params.summer }}
-                    ({{ .Params.affiliation }}, summer {{ .Params.summer }})
-                    {{ else }}
-                    ({{ .Params.affiliation }})
+                    {{ $details := slice }}
+                    {{ with .Params.program }}
+                      {{ range . }}
+                        {{ $details = $details | append . }}
+                      {{ end }}
+                    {{ end }}
+                    {{ with .Params.affiliation }}
+                      {{ $details = $details | append . }}
+                    {{ end }}
+                    {{ with .Params.summer }}
+                      {{ $details = $details | append (printf "summer %s" .) }}
+                    {{ end }}
+                    {{ with index .Params "co-mentors" }}
+                      {{ range . }}
+                        {{ $details = $details | append (printf "co-mentored by Dr. %s" .) }}
+                      {{ end }}
+                    {{ end }}
+                    {{ with $details }}
+                      ({{ delimit . ", " }})
                     {{ end }}
                   </p>
                 </div>
               {{ end }}
-            {{ end }}
-          </section>
+            </section>
+          {{ end }}
         {{ end }}
       </div>
     </div>
