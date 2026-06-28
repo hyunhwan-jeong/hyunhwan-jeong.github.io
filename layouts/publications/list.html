@@ -48,7 +48,7 @@
               {{ range $data }}
                 {{ if and .year (eq .year $year) }}
                   <div class="pub-entry">
-                    <span class="pub-authors">{{ .authors }}</span>
+                    <span class="pub-authors">{{ replace .authors "Jeong H-H" "<strong>Jeong H-H</strong>" | safeHTML }}</span>
                     ({{ .year }}).
                     <span class="pub-title">
                       <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
