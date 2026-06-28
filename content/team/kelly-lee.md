@@ -1,5 +1,8 @@
 ---
 title: "Kyuwon (Kelly) Lee"
-role: "Rotation student"
-affiliation: "Baylor College of Medicine"
+role: "Graduate Student"
+program:
+  - "CCB @ BCM"
+co-mentors:
+  - "Zhandong Liu"
 ---
